@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #E1E6E1;
+}
+
+.name {
+    width: 100%;
+    height: 300px;
+    background: #C5D9E2;
+    transform: skewY(3deg);
+}
+
+.name .content {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    left: 17%;
+}
+
+.name .img {
+    position: absolute;
+    top: 17%;
+    right: 15%;
+    width: 180px;
+    height: 180px;
+    border-radius: 5%;
+    transform: skewY(-3deg);
+    overflow: hidden;
+}
+
+.name .img img {
+    width: 180px;
+    height: 272px;
+}
+
+.name .content {
+    color: black;
+    font-family: 'Texto carmesí', serif;
+    font-weight: bolder;
+    font-size: 50px;
+    transform: skewY(-3deg);
+    margin-bottom: 0;
+}
+
+.info {
+    width: 90%;
+    height: auto;
+    background: #C5D9E2;
+    margin: 5% auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.info .TituloSeccion {
+    color: #131B23;
+    font-family: 'Texto carmesí', serif;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bolder;
+    border-bottom: 2px #131B23 dashed;
+} 
+
+.info .tituloInfo {
+    color: #131B23;
+    font-family: 'Texto carmesí', serif;
+    font-size: large;
+    font-weight: bolder;
+    display: inline;
+    margin-right: 10px;
+}
+
+.info .Infor {
+    color: #225560;
+    font-family: 'Texto carmesí', serif;
+    font-size: large;
+    font-weight: normal;
+    display: inline;
+}
+
+table th {
+    width: 20em;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+tr:nth-of-type(1) > th {
+    background-color: #A7CDBD;
+    font-family: 'Texto carmesí', serif;
+    color: #131B23;
+    font-weight: bolder;
+}
+
+tr:nth-of-type(2) > th {
+    background-color: #E1E6E1;
+    font-family: 'Texto carmesí', serif;
+    font-weight: normal;
+    color: #225560;
+}
+
+tr:nth-of-type(3) > th {
+    background-color: #E1E6E1;
+    font-family: 'Texto carmesí', serif;
+    font-weight: normal;
+    color: #225560;
+}
+
+tr:nth-of-type(4) > th {
+    background-color: #E1E6E1;
+    font-family: 'Texto carmesí', serif;
+    font-weight: normal;
+    color: #225560;
+}
